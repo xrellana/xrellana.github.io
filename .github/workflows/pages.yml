@@ -4,6 +4,18 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'source/_posts/**'
+      - 'source/about/**'
+      - 'source/categories/**'
+      - 'source/tags/**'
+      - 'themes/**'
+      - 'scaffolds/**'
+      - '_config.yml'
+      - '_config.*.yml'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/pages.yml'
 
   workflow_dispatch:
 
