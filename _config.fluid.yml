@@ -5,3 +5,7 @@ index:
   slogan:
     enable: true
     text: RANDOM THOUGHTS
+
+
+favicon: /img/favicon.png
+apple_touch_icon: /img/apple-touch-icon.png
