@@ -1,0 +1,7 @@
+navbar:
+  blog_title: Xrellana
+
+index:
+  slogan:
+    enable: true
+    text: RANDOM THOUGHTS
