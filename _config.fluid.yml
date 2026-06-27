@@ -5,7 +5,7 @@ navbar:
     - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
     - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
-    - { key: "rss", name: "RSS", link: "/atom.xml", icon: "iconfont icon-link-fill" }
+    - { key: "rss", name: "RSS", link: "/atom.xml", icon: "iconfont icon-rss-fill" }
 
 index:
   slogan:
