@@ -28,11 +28,11 @@ function moveRssAfterSearch(html) {
 function replaceRssIcons(html) {
   return html
     .replace(
-      new RegExp(`(<a class="nav-link" href="/atom\\.xml" target="_self">\\s*)${iconPattern}(\\s*<span>RSS</span>)`, 'g'),
-      `$1${desktopRssIcon}$2`
+      new RegExp(`(<a class="nav-link" href="/atom\\.xml" target="_self")>(\\s*)${iconPattern}\\s*<span>RSS</span>`, 'g'),
+      `$1 aria-label="RSS">$2${desktopRssIcon}`
     )
     .replace(
-      new RegExp(`(<a href="/atom\\.xml" target="_self">\\s*<div class="mobile-grid-item">\\s*)${iconPattern}(\\s*<span>RSS</span>)`, 'g'),
-      `$1${mobileRssIcon}$2`
+      new RegExp(`(<a href="/atom\\.xml" target="_self")>(\\s*<div class="mobile-grid-item">\\s*)${iconPattern}\\s*<span>RSS</span>`, 'g'),
+      `$1 aria-label="RSS">$2${mobileRssIcon}`
     );
 }
